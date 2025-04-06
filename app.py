@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore", message="FP16 is not supported on CPU*")
 os.environ["OMP_NUM_THREADS"] = "1"
 
 # Config
-DURATION = 45  # seconds per audio chunk
+DURATION = 10  # seconds per audio chunk
 SAMPLERATE = 16000  # sample rate in Hz
 LOG_FILE = "output/transcription_log.txt"
 
