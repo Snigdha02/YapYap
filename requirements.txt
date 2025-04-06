@@ -1,0 +1,7 @@
+openai-whisper
+sounddevice
+scipy
+keyboard
+pydub
+python-docx
+numpy<2
